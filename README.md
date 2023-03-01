@@ -45,7 +45,7 @@ Data columns (total 10 columns):
  
  ![image](https://user-images.githubusercontent.com/121250443/222241494-69c07f13-22e1-4cee-934f-87333147324e.png)
  
-## NLP Classification Task
+## NLP Classification Task(two categories)
 
 using:
 * CountVectorizer
@@ -54,11 +54,11 @@ using:
 
 * f1-score=92
 
-## Pipeline
+## Pipeline(three categories)
 
 Using:
 * CountVectorizer
 * TfidfTransformer
 * LogisticRegression
 
-* f1-score=75
+* f1-score=79
