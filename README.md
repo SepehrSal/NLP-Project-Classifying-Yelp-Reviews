@@ -9,15 +9,17 @@ Each observation in this dataset is a review of a particular business by a parti
 The "stars" column is the number of stars (1 through 5) assigned by the reviewer to the business. (Higher stars is better.) In other words, it is the rating of the business by the person who wrote the review.
 
 project sections:
-*The Data
-*EDA
-*NLP Classification
-*Pipeline
+
+* The Data
+* EDA
+* NLP Classification
+* Pipeline
 
 ## The Data
 
 Data columns (total 10 columns):
-     Column       Non-Null Count  Dtype 
+
+ Column  Non-Null Count  Dtype 
      
  0   business_id  10000 non-null  object
  
