@@ -14,11 +14,10 @@ project sections:
 *NLP Classification
 *Pipeline
 
-#The Data
+## The Data
 
-RangeIndex: 10000 entries, 0 to 9999
 Data columns (total 10 columns):
- #   Column       Non-Null Count  Dtype 
+     Column       Non-Null Count  Dtype 
 ---  ------       --------------  ----- 
  0   business_id  10000 non-null  object
  1   date         10000 non-null  object
@@ -31,11 +30,11 @@ Data columns (total 10 columns):
  8   useful       10000 non-null  int64 
  9   funny        10000 non-null  int64 
  
- #EDA
+## EDA
  
  ![image](https://user-images.githubusercontent.com/121250443/222241494-69c07f13-22e1-4cee-934f-87333147324e.png)
  
-#NLP Classification Task
+## NLP Classification Task
 
 using:
 *CountVectorizer
@@ -44,7 +43,7 @@ using:
 
 *f1-score=92
 
-#Pipeline
+## Pipeline
 
 Using:
 CountVectorizer
