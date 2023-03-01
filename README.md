@@ -18,16 +18,25 @@ project sections:
 
 Data columns (total 10 columns):
      Column       Non-Null Count  Dtype 
----  ------       --------------  ----- 
+     
  0   business_id  10000 non-null  object
+ 
  1   date         10000 non-null  object
+ 
  2   review_id    10000 non-null  object
- 3   stars        10000 non-null  int64 
+ 
+ 3   stars        10000 non-null  int64
+ 
  4   text         10000 non-null  object
+ 
  5   type         10000 non-null  object
+ 
  6   user_id      10000 non-null  object
- 7   cool         10000 non-null  int64 
- 8   useful       10000 non-null  int64 
+ 
+ 7   cool         10000 non-null  int64
+ 
+ 8   useful       10000 non-null  int64
+ 
  9   funny        10000 non-null  int64 
  
 ## EDA
@@ -41,7 +50,7 @@ using:
 * Analyzer
 * MultinomialNB
 
-*f1-score=92
+* f1-score=92
 
 ## Pipeline
 
@@ -50,4 +59,4 @@ Using:
 * TfidfTransformer
 * LogisticRegression
 
-*f1-score=75
+* f1-score=75
