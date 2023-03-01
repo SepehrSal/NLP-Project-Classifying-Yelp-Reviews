@@ -37,17 +37,17 @@ Data columns (total 10 columns):
 ## NLP Classification Task
 
 using:
-*CountVectorizer
-*Analyzer
-*MultinomialNB
+* CountVectorizer
+* Analyzer
+* MultinomialNB
 
 *f1-score=92
 
 ## Pipeline
 
 Using:
-CountVectorizer
-TfidfTransformer
-LogisticRegression
+* CountVectorizer
+* TfidfTransformer
+* LogisticRegression
 
 *f1-score=75
